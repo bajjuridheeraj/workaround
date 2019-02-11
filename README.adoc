@@ -14,3 +14,7 @@ You can run Maven from the root folder. So from a clean checkout:
 (cd sampleproject; ../mvnw clean install)
 ./mvnw clean install -Ptest
 ----
+
+
+== Verify whether application is up and running using below URL in the browser
+http://localhost:8080/health
