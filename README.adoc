@@ -1,0 +1,19 @@
+#TO DO
+= Spring Cloud Contract samples
+
+This repository contains the sample spring boot application for practice
+project.
+
+== Project Name:
+
+=== sample project
+
+== How to build it?
+
+You can run Maven from the root folder. So from a clean checkout:
+
+[source,bash]
+----
+(cd sampleproject; ../mvnw clean install)
+./mvnw clean install -Ptest
+----
