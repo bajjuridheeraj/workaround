@@ -1,6 +1,3 @@
-#TO DO
-= Spring Cloud Contract samples
-
 This repository contains the sample spring boot application for practice
 project.
 
