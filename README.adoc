@@ -18,3 +18,31 @@ You can run Maven from the root folder. So from a clean checkout:
 
 == Verify whether application is up and running using below URL in the browser
 http://localhost:8080/health
+
+== Instructions on installation of Java
+Download java (.exe for windows) based on your os version from here:
+windows (x64) : http://download.oracle.com/otn-pub/java/jdk/11.0.2+9/f51449fcd52f4d52b93a989c5c56ed3c/jdk-11.0.2_windows-x64_bin.exe
+https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
+
+Save it to downloads, install java using above downloaded .exe file (only for windows)
+
+Now we need to set the jave path to enable java:
+
+* verify java is enabled by default:
+1. open command prompt
+2. enter command > _java -version_
+3. you should see java version.
+4. set environment variable path as below:
+
+
+* Start->type environment-> from the results select "edit the system environment variables"
+* under Advanced click "Environment Variables"
+* Environment Variables -> add below properties under User Variables:
+  JAVA_HOME as C:\Program Files\Java\jdk-11.0.2\
+* add below value to exisiting path:
+  C:\Program Files\Java\jdk-11.0.2\bin\
+* then apply, then click ok
+
+Then relaunch cmd prompt freshly and check java version using
+_java --version_
+
